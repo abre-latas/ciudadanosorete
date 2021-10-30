@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@700&display=swap');
+@font-face​{ 
+​    ​font-family​:​ ​"built"​; 
+​    ​src​:​ ​url​(​"font/built.ttf"​); 
+​    ​font-weight​:​ normal; 
+​    ​font-style​:​ normal
+
 
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'built', sans-serif;
 }
 
 html {
