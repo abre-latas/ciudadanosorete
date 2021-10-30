@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'built titling';
-    src: url('font\built titling bd.ttf'); 
+    font-family: 'built';
+    src: url('font\built.ttf'); 
 }
 
 *{
@@ -13,7 +13,7 @@ html {
 }
 
 body{
-    font-family: built titling;
+    font-family: built;
     background: #ffffff;
 }
 
