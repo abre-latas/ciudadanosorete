@@ -1,0 +1,342 @@
+
+
+@font-face {
+    font-family: 'built titling';
+    src: url('TP diseño web\Fonts\built titling bd.ttf'); 
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body{
+    font-family: built titling;
+    background: #ffffff;
+}
+
+
+
+nav { display: grid;
+    grid-template-columns: repeat (5,1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 6rem;
+    background: white;
+    position: fixed;
+    
+    
+
+}
+
+.logo { 
+    grid-column: 1;
+    margin-top: 0.4rem;
+    
+    
+}
+
+.fundacion {
+    grid-column: 3;
+    font-size: 2.7rem;
+    text-decoration: none;
+}
+
+.funcionamiento {
+grid-column: 4;
+font-size: 2.7rem;
+text-decoration: none;
+}
+
+.mierda {
+    grid-column: 5;
+    font-size: 2.7rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:#ff45ff ;
+    
+}
+
+nav div a:hover {
+    color: white;
+    background-color: #ff45ff;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-rows: repeat (5,1fr);
+    grid-gap: 1rem;
+    margin:  0rem 5rem;
+    background-color: white;
+    padding: 1.04rem;
+    margin-bottom: 3.20rem;
+    margin-top: 0.40rem;
+   
+   
+}
+
+
+.uno {
+    color: #459cff;
+    grid-row: 1;
+    padding-top: 7rem;
+    font-size: 1.5rem;
+    
+
+
+}
+
+.dos {
+    color: #ffc445;
+    grid-row: 2;
+    font-size: 1.5rem;
+   
+}
+
+.tres {
+    color: #59db26;
+    grid-row: 3;
+    font-size: 1.5rem;
+    
+}
+
+.cuatro {
+    color: #ff455e;
+    grid-row: 4;
+    font-size: 1.5rem;
+    
+}
+
+.cinco {color: #8d3ada;
+    grid-row: 5;
+    font-size: 1.5rem;
+
+}
+
+@media screen and (min-width: 840px) and (max-width:1020px){
+    
+
+
+    body{
+        font-family: built titling;
+        background: #ffffff;
+        font-size: 80%;
+    }
+    
+    
+    
+    nav { display: grid;
+        grid-template-columns: repeat (5,1fr);
+        grid-gap: 0.8rem;
+        align-items: center;
+        text-align: center;
+        width:100%;
+        height: 5.8rem;
+        background: white;
+        position: fixed;
+        
+        
+    
+    }
+    
+    .logo { 
+        grid-column: 1;
+        margin-top: 0.32rem;
+        
+        
+    }
+    
+    
+    .funcionamiento {
+    grid-column: 4;
+    font-size: 2.7rem;
+    text-decoration: none;
+    }
+    
+    .mierda {
+        grid-column: 5;
+        font-size: 2.7rem;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color:#ff45ff ;
+        
+    }
+    
+    nav div a:hover {
+        color: white;
+        background-color: #ff45ff;
+    }
+
+    .contenedor2{
+        display: grid;
+        grid-template-rows: repeat (5,1fr);
+        grid-gap: 0.80rem;
+        margin:  0rem 4rem;
+        background-color: white;
+        padding: 0.83rem;
+        margin-bottom: 2.56rem;
+        margin-top: 0.32rem;
+       
+       
+    }
+    
+    
+    .uno {
+        color: #459cff;
+        grid-row: 1;
+        padding-top: 7rem;
+        font-size: 1.20rem;
+        
+    
+    
+    }
+    
+    .dos {
+        color: #ffc445;
+        grid-row: 2;
+        font-size: 1.20rem;
+       
+    }
+    
+    .tres {
+        color: #59db26;
+        grid-row: 3;
+        font-size: 1.20rem;
+        
+    }
+    
+    .cuatro {
+        color: #ff455e;
+        grid-row: 4;
+        font-size: 1.20rem;
+        
+    }
+    
+    .cinco {color: #8d3ada;
+        grid-row: 5;
+        font-size: 1.20rem;
+    
+    }
+}
+
+@media screen and (max-width: 840px)
+{
+body{
+        font-family: built titling;
+        background: #ffffff;
+        font-size: 60%;
+    }
+nav { 
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: 
+    "logo"
+    "funcionamiento"
+    "mierda";
+    grid-gap: 0.30rem;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 13rem;
+    background: white;
+    position: fixed;
+}
+.logo { 
+    
+    grid-area: logo;
+    margin-top: 0.24rem;
+    margin-bottom: 0rem;
+}
+
+
+.funcionamiento {
+grid-area: funcionamiento;
+font-size: 2rem;
+margin-bottom: 1rem;
+text-decoration: none;
+}
+
+.mierda {
+    grid-area: mierda;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:#ff45ff ;
+    
+}
+
+nav div a:hover {
+    color: white;
+    background-color: #ff45ff;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-rows: repeat (5,1fr);
+    grid-gap: 0.80rem;
+    margin:  0rem 4rem;
+    background-color: white;
+    padding: 0.83rem;
+    margin-bottom: 2.56rem;
+    margin-top: 0.32rem;
+   
+   
+}
+
+
+.uno {
+    color: #459cff;
+    grid-row: 1;
+    padding-top: 13rem;
+    font-size: 0.90rem;
+    
+
+
+}
+
+.dos {
+    color: #ffc445;
+    grid-row: 2;
+    font-size: 0.90rem;
+   
+}
+
+.tres {
+    color: #59db26;
+    grid-row: 3;
+    font-size: 0.90rem;
+    
+}
+
+.cuatro {
+    color: #ff455e;
+    grid-row: 4;
+    font-size: 0.90rem;
+    
+}
+
+.cinco {color: #8d3ada;
+    grid-row: 5;
+    font-size: 0.90rem;
+
+}
+
+
+}
+
