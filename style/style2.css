@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'built';
-    src: url('font\built.ttf'); 
-}
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -13,7 +10,7 @@ html {
 }
 
 body{
-    font-family: 'built';
+    font-family: 'Pridi', serif;
     background: #ffffff;
 }
 
