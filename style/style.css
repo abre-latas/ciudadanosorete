@@ -3,7 +3,7 @@
 ​    ​font-family​:​ ​"built"​; 
 ​    ​src​:​ ​url​(​"...font/built.ttf"​); 
 ​    ​font-weight​:​ normal; 
-​    ​font-style​:​ normal
+​    ​font-style​:​ normal;}
 *{
     margin: 0;
     box-sizing: border-box;
