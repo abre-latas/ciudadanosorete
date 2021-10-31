@@ -1,13 +1,13 @@
 @font-face​{ 
-​    ​font-family​:​ ​"built"​; 
-​    ​src​:​ ​url​(​'font/built.ttf') format('truetype');
+​    ​font-family​:​ ​"letra"​; 
+​    ​src​:​ ​url​(​'font/built-titling-bd.woff') format('woff');
 }
 
 
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'built';
+    font-family: 'letra';
 }
 
 html {
