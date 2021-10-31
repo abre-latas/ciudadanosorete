@@ -1,5 +1,5 @@
 @font-face​{ 
-​    ​font-family​:​ ​"letra"​; 
+​    ​font-family​: ​'Letra'; 
 ​    ​src​:​ ​url​(​'font/built-titling-bd.woff') format('woff');
 }
 
@@ -7,7 +7,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'letra';
+    font-family: Letra';
 }
 
 html {
