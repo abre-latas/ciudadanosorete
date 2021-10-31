@@ -1,7 +1,7 @@
 @font-face​{ 
 ​    ​font-family​:​ ​"built"​; 
-​    ​src​:​ ​url​(​'font/built.ttf'); 
-​    ​format('truetype');}
+​    ​src​:​ ​url​(​'font/built.ttf') format('truetype');
+}
 
 
 *{
