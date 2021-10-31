@@ -1,13 +1,14 @@
 @font-face​{ 
-​    ​font-family​: ​"Letra"; 
-​    ​src​:​ ​url​(​"font/built-titling-bd.woff") format('woff');
+​     
+​    ​src​:​ ​url​('​../font/built-titling-bd.woff') format('woff');
+    ​font-family​: ​'Letra';
 }
 
 
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: "Letra";
+    font-family: 'Letra';
 }
 
 html {
